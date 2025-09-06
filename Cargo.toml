@@ -43,6 +43,7 @@ dashmap = "6.0.1"
 parking_lot = "0.12.3"
 bytes = "1.7.1"
 crossbeam = "0.8.4"
+portable-atomic = "1.6"
 
 # Logging and Tracing
 env_logger = "0.11.3"

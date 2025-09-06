@@ -43,3 +43,4 @@ gethostname.workspace = true
 sysinfo.workspace = true
 rand.workspace = true
 pin-project.workspace = true
+portable-atomic.workspace = true

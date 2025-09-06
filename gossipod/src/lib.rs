@@ -1,7 +1,7 @@
 #![allow(unused_variables)]
 #![allow(dead_code)]
 
-use std::sync::atomic::{AtomicU64, Ordering};
+use portable_atomic::{AtomicU64, Ordering};
 use std::sync::Arc;
 use std::time::Duration;
 use anyhow::{anyhow, Context as _, Result};

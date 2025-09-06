@@ -3,7 +3,7 @@ use std::sync::Arc;
 use parking_lot::RwLock;
 use anyhow::Result;
 use std::cmp::Ordering;
-use std::sync::atomic::{AtomicU64, Ordering as AtomicOrdering};
+use portable_atomic::{AtomicU64, Ordering as AtomicOrdering};
 use crate::message::Broadcast;
 
 pub trait BroadcastQueue: Send + Sync {

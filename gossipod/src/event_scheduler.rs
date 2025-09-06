@@ -8,7 +8,7 @@ use std::{
 };
 use anyhow::{Result, anyhow};
 use tokio::time::{sleep_until, Instant};
-use std::sync::atomic::{AtomicU64, AtomicU8, Ordering};
+use portable_atomic::{AtomicU64, AtomicU8, Ordering};
 use std::cmp::Ordering as CmpOrdering;
 use futures::stream::Stream;
 use crossbeam::queue::SegQueue;
